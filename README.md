@@ -1,70 +1,36 @@
-# Getting Started with Create React App
+# Welcome to Text Search
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Running the project
 
-## Available Scripts
+Simply run:
 
-In the project directory, you can run:
+```cmd
+npm install
+npm start
+```
 
-### `npm start`
+## What is Text Search?
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Text Search allows the user to find a specific keyword inside given articles title or text.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### How to use Text Search
 
-### `npm test`
+To use Text Search simple type in the keyword you wish to find in the given articles for example `Lorem`, `Ipsum`, `more`, ...
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Project Structure
 
-### `npm run build`
+This project was created using `create-react-app`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### Directories and Files
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+1. The `components` directory containes the search bar.
+2. The `config` directory contains configurations.required for the project:  
+   a. `articles.js` file defines the articles array used for the search.  
+   b. `strings.js` file defines all the texts used in the project.  
+3. The `pages` directory contains the UI for the pages and data rendering.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Packages Used
 
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+* `lodash` utility library.
+* `styled-components` for components styling.
+* `react-highlight-words` library to highlight a specific word in a text.
